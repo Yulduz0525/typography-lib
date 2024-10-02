@@ -1,0 +1,1 @@
+export { colors, mergeColors } from "./colors";
