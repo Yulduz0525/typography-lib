@@ -1,10 +1,10 @@
-# typography-lib
+# Typography-library
 
  This package combines TypeScript and CSS used to create various text components using the styled-components library. These components are useful for creating custom styles for different types of text.
 
-## installation
+## Installation
 
-npm install typography-lib
+npm install typography-library
 
 ### Package purpose
 
@@ -19,7 +19,7 @@ import {
   Paragraph, 
   ButtonDefault, 
   InputDefault 
-} from 'typography-lib';
+} from 'typography-library';
 
 const MyPage = () => {
   return (
@@ -48,7 +48,7 @@ const MyPage = () => {
 You can customize the colors used in the components by providing your own color values using the `mergeColors` function. This function takes an object with your custom colors and merges them with the default colors.
 
 ```typescript
-import { mergeColors } from 'typography-lib';
+import { mergeColors } from 'typography-library';
 
 const userColors = {
   "primary-500": "#ff5733",
