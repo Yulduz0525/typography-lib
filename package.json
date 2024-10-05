@@ -1,5 +1,5 @@
 {
-  "name": "typography-library",
+  "name": "typography-pack",
   "version": "1.0.2",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
