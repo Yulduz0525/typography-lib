@@ -402,3 +402,5 @@ export const PlaceholderSm = styled.button<TTypographyProps>`
     line-height: 21px;
   }
 `;
+
+export const Subtext = styled.span``;

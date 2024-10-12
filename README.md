@@ -1,10 +1,10 @@
-# Typography-pack
+# Typography-packgs
 
  This package combines TypeScript and CSS used to create various text components using the styled-components library. These components are useful for creating custom styles for different types of text.
 
 ## Installation
 
-npm install typography-pack
+npm install typography-packgs
 
 ### Package purpose
 
@@ -18,8 +18,9 @@ import {
   H1, 
   Paragraph, 
   ButtonDefault, 
-  InputDefault 
-} from 'typography-pack';
+  InputDefault ,
+  Subtext
+} from 'typography-packgs';
 
 const MyPage = () => {
   return (
@@ -30,6 +31,9 @@ const MyPage = () => {
       <H1 color="secondary" align="left" subColor="gradient-1">
         This is a Subheading
       </H1>
+      <Subtext>
+      This is a paragraph tag
+      </Subtext>
       <Paragraph color="black">
         This is a sample paragraph. It provides additional information to the readers.
       </Paragraph>
@@ -48,7 +52,7 @@ const MyPage = () => {
 You can customize the colors used in the components by providing your own color values using the `mergeColors` function. This function takes an object with your custom colors and merges them with the default colors.
 
 ```typescript
-import { mergeColors } from 'typography-pack';
+import { mergeColors } from 'typography-packgs';
 
 const userColors = {
   "primary-500": "#ff5733",
